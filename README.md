@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Internal Environment Management Platform (IEMP)
 
 > **Version 1.1** — Enterprise Self-Service Cloud Testbeds, Application Launcher & Multi-Cloud FinOps Portal.
@@ -113,3 +114,7 @@ npm run dev -- -p 3000
 2. **Stop ≠ Terminate**: EC2 instances only transition to `stopped`, preserving all attached EBS volumes.
 3. **App Readiness vs. EC2 State**: Instances report `running` when AWS activates the hypervisor, but the app is only marked `ready` after HTTP health probes succeed.
 4. **Append-Only Audit Trail**: Every authentication, start/stop event, tool launch, and content download is recorded with the Zoho employee email and timestamp.
+=======
+# IEMP
+Internal Environment Management Platform
+>>>>>>> 029e9d2126f53052435d901c2659239ee3b8b1d4
